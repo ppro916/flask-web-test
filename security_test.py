@@ -12,8 +12,8 @@ from stem.control import Controller
 from flask import Flask, request
 
 # कॉन्फिगरेशन (GitHub वर अपलोड करण्यापूर्वी बदला!)
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-TELEGRAM_CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"
+TELEGRAM_TOKEN = "8474861805:AAGk_7SHh-x4fBF5exgixQXUWg2TVuuR_W0"
+TELEGRAM_CHAT_ID = "7991797378"
 FLASK_PORT = 7700  # तुमचा Flask पोर्ट
 TEST_OTP = "000000"  # तुमचा बॅकडोर OTP
 
@@ -123,4 +123,4 @@ if __name__ == "__main__":
     
     # मुख्य थ्रेड कायम चालू ठेवा
     while True:
-        time.sleep(3600)
+        time.sleep(3600)'
