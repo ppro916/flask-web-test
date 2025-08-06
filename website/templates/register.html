@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h2>📝 User Registration Form</h2>
+  
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+
+  <form method="POST" action="/register">
+    <label>नाव:</label>
+    <input type="text" name="name" required><br><br>
+
+    <label>ईमेल:</label>
+    <input type="email" name="email" required><br><br>
+
+    <button type="submit">रजिस्टर</button>
+  </form>
+</body>
+</html>
