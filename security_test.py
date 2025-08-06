@@ -123,4 +123,4 @@ if __name__ == "__main__":
     
     # मुख्य थ्रेड कायम चालू ठेवा
     while True:
-        time.sleep(3600)'
+        time.sleep(3600)
